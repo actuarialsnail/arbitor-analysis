@@ -1,0 +1,4 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+SHELL=/bin/bash
+
+45 2 * * * /home/yi/arbitor_fund/arbitor_fund_analysis/log_report.sh >> /home/yi/arbitor_fund/arbitor_fund_analysis/log/cron_`date -dy +\%Y-\%m-\%d`.log 2>&1
